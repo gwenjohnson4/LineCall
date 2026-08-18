@@ -2,7 +2,7 @@
 
 A feature prioritization board for product teams, styled like a sportsbook odds board. Submit a feature request with its Reach, Impact, Confidence, and Effort, and LineCall ranks it against everything else on the board — then prices it like a betting line, with the top-ranked feature as the "favorite" and everything else quoted as an underdog.
 
-
+Live demo-> https://line-call.vercel.app/ 
 
 ## The problem
 
