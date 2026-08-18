@@ -1,0 +1,55 @@
+:root {
+  --bg: #12151b;
+  --surface: #1b2029;
+  --surface-raised: #232a35;
+  --line: #2c3340;
+  --gold: #d8a93b;
+  --gold-dim: #a9832d;
+  --green: #35b37e;
+  --red: #e2554f;
+  --text: #f1ede4;
+  --text-muted: #8a92a6;
+  --text-faint: #545c6e;
+
+  --font-display: 'Teko', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image: radial-gradient(circle at 15% 0%, rgba(216, 169, 59, 0.06), transparent 45%),
+    radial-gradient(circle at 85% 10%, rgba(53, 179, 126, 0.05), transparent 40%);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--gold);
+  color: #12151b;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
